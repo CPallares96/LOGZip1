@@ -33,7 +33,7 @@ btnCheck.onclick = function() {
     }
     if (storedPs[i] == userPassword.value) {
         alert('Ingreso exitoso');
-        window.location.href = "https://cpallares96.github.io/CRUDZip/";
+        window.location.href = "https://cpallares96.github.io/CRUDZip1/";
 
     } else {
         alert('Usuario o contraseña invalida');
