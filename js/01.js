@@ -33,7 +33,7 @@ btnCheck.onclick = function() {
     }
     if (storedPs[i] == userPassword.value) {
         alert('Ingreso exitoso');
-        localStorage.setItem('usuarioActual', JSON.stringify(storedUs[i]));
+        localStorage.setItem('usuarioActual', storedUs[i]);
         window.location.href = "https://cpallares96.github.io/CRUDZip1/";
 
     } else {
