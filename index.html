@@ -19,9 +19,9 @@
                 <a id="login" class="selected" href="#login">Ingreso</a>
                 <a id="register" href="#register">Nuevo usuario</a>
                 <div></div>
-        </div>
+            </div>
             <div class="tabs">
-                <form class="form" id="myForm" action ="validar.php" method="post">
+                <form class="form" id="myForm">
                     <div class="inputs">
                         <div class="input">
                             <input placeholder="Usuario" type="text" id="inp_usuario">
@@ -41,7 +41,7 @@
                     <button type="button" id="btnCheck">Ingresar</button>
                 </form>
 
-                <form action="insert.php" method="post">
+                <form action="insert.php" method="POST">
                     <div class="inputs">
                         <div class="input">
                             <input placeholder="Correo" type="email" id="r_email" name="email" required>
@@ -52,17 +52,13 @@
                             <img src="img/user.svg">
                         </div>
                         <div class="input">
-                            <input placeholder="Contraseña" type="password" id="r_contrasena" name="contrasena" required>
+                            <input placeholder="Contraseña" type="password" id="r_contrasena" name="contraseNa" required>
                             <img src="img/pass.svg">
                         </div>
                     </div>
-                    <button type="submit" id="btnInsert">Registrarse</button>
-                 </form>
-                 <script>
-                    const myForm= document.getElementById('myForm');
-    
-                    myForm.addEventListener()
-                </script>
+                    <button type="button" id="btnInsert">Registrarse</button>
+
+                </form>
             </div>
         </div>
     </div>
